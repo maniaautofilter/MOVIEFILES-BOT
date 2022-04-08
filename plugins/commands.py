@@ -49,7 +49,7 @@ async def start(client, message):
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about') 
             ],[ 
-            InlineKeyboardButton('😇𝐎𝐖𝐍𝐄𝐑', url='https://t.me/ANONYMOUSLY_404')
+            InlineKeyboardButton('😇 Owner', url='https://t.me/ANONYMOUSLY_404')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
